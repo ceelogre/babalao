@@ -1,0 +1,24 @@
+{
+  "name": "babalao",
+  "version": "1.0.0",
+  "description": "workflow demonstration",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceelogre/babalao.git"
+  },
+  "keywords": [
+    "git",
+    "workflow",
+    "rebase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceelogre/babalao/issues"
+  },
+  "homepage": "https://github.com/ceelogre/babalao#readme"
+}
