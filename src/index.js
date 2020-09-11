@@ -8,6 +8,12 @@ app.get('/', (req, res) => {
     })
 })
 
+app.get('/watches', (req, res) => {
+    res.json({
+        message: "It is here where all watches can be found"
+    })
+})
+
 app.get('/users', (req, res) => {
     res.json({
         message: "This is where the users should be!"
