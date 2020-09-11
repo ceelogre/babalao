@@ -8,6 +8,13 @@ app.get('/', (req, res) => {
     })
 })
 
+app.get('/users', (req, res) => {
+    res.json({
+        message: "This is where the users should be!"
+    })
+})
+
+
 const PORT = 3001
 app.listen(PORT, () => {
     console.info(`Live on ${PORT}`)
